@@ -1,0 +1,11 @@
+[package]
+name = "wasm-develop"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "fib"
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
